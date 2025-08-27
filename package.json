@@ -1,0 +1,25 @@
+{
+  "name": "node-express-perusharjoitus",
+  "version": "1.0.0",
+  "description": "harjotellaan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HexHM/node-express-perusharjoitus.git"
+  },
+  "keywords": [
+    "nodetesti"
+  ],
+  "author": "ye",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/HexHM/node-express-perusharjoitus/issues"
+  },
+  "homepage": "https://github.com/HexHM/node-express-perusharjoitus#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
