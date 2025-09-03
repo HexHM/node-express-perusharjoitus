@@ -22,6 +22,10 @@ app.set('view', './views');
 // Tehdään palvelimen express-asetukset
 app.engine('handlebars', engine())
 app.set('view engine', 'handlebars')
+app.set('views', './views');
+
+
+
 
 
 // Määritetään URL-reitit'
@@ -54,6 +58,17 @@ app.get('/about',(reg, res) => {
         'team': 'TiVi20oa'
     }
     res.render('about', aboutData); 
+
+})
+// POST -reitti lomakkeelle
+
+app.post('/form', (req, res) => {
+
+    let givenname = req.body.firstname;
+    let lastname = req.boby.surname;
+    let group = req.body.group;
+
+    res.send ('lomake vastaanotettu! Etunimi: ${firstname}, Sukunimi: ${surname} ryhmä: ${group}');
 
 });
 
