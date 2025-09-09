@@ -1,5 +1,5 @@
 {
-  "name": "node-express-perusharjoitus",
+  "name": "perusharjoitus",
   "version": "1.0.0",
   "description": "harjotellaan",
   "main": "index.js",
@@ -20,6 +20,12 @@
   },
   "homepage": "https://github.com/HexHM/node-express-perusharjoitus#readme",
   "dependencies": {
+    "@prisma/client": "^6.15.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.15.0"
   }
 }
